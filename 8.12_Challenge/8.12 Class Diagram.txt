@@ -1,0 +1,51 @@
+Class Diagram for 8.12
+
+V9Tester
+- - - - - -
+Variables
++ objCount
++ name
++ firstTime
++ secondTime
++ timesForAvg
++ temp
+- - - - -
+Constructor
+none
+- - - - -
+Methods
++main
+- - - - - -
+
+ClocksV9
+- - - - - -
+Variables
+- givenName
+- time1
+- time2
+- objDifference
+- difference
+- diff
+- minVal
+- maxVal
+- total
+- - - - -
+Constructor
++ public ClocksV9(String name, double input1, double input2)
+- - - - -
+Methods
++ difference()
++ difference(double givenDifference)
++ printTable
++ diffMinimum
++ diffMaximum
++ avgDifference
++ getName
++ getTime1
++ getTime2
++ getObjDifference
++ setName
++ setTime1
++ setTime2
++ setObjDifference
++ toString

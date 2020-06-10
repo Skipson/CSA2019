@@ -1,0 +1,44 @@
+Class Diagram for 8.11
+
+CO2FromWasteTesterV1
+- - - - -
+Variables
++ index
++ dataRecord
++ households
+- - - - -
+Constructor
+none
+- - - - -
+Methods
++ main
+
+
+
+C02FromWasteV1
+- - - - -
+Variables
+- myNumPeople
+- myPaper
+- myPlastic
+- myGlass
+- myCans
+- myEmissions
+- myReduction
+- myNetEmissions
+- - - - -
+Constructor
+ + CO2FromWasteV1(int numPeople, boolean paper, boolean plastic, boolean glass, boolean cans)
+- - - - -
+Methods
++ void calcGrossWasteEmission
++ void calcWasteReduction
++ void calcNetWasteReduction
++ int getNumPeople
++ boolean getPaper
++ boolean getGlass
++ boolean getPlastic
++ boolean getCans
++ double getEmissions
++ double getReduction
++ double getNetEmissions

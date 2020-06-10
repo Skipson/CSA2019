@@ -1,0 +1,36 @@
+Class Diagrams for 08.07
+
+ClocksV7
+- - - - -
+Variables
+- givenName
+- time1
+- time2
+- difference
+- - - - -
+Constructor
++ ClocksV7(String name, double input1, double input2)
+- - - - -
+Methods
++ double difference()
++ double difference(double givenDifference)
++ printTable
+
+-------------------------
+V7Tester
+- - - - -
+Variables
++name1
++name2
++name3
++firstTime
++secondTime
++firstTime2
++secondTime2
++firstTime3
++secondTime3
+- - - - -
+No constructor
+- - - - -
+Methods
++ main

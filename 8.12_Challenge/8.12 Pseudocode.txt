@@ -1,0 +1,34 @@
+ClocksV9 Pseudocode
+
+Define Class
+	Declaring priv string  & doubles
+	Constructor to assign priv variables to given information
+	>Method to calculate difference between 2 given times
+	>Method to take a given difference and multiply by 60
+	>Method to print all object information to a table format
+	>Method to find the minimum time out of a set of times
+	>Method to find the maximum time out of a set of times
+	>Method to find the average of a given set of times
+	>Method to multiply input by 60
+	>Getters and setters for all priv variables
+	>toString method
+}
+
+
+
+
+V9Tester Pseudocode
+
+Import ArrayList
+Import Scanner
+Define Class
+	Main Method
+		Declare Scanner
+		Query user for amount of times needed, 10 minimum (rubric)
+		Create ArrayList
+		Prompt user for input, assign input into an ArrayList array
+		Create a double array for times input to use in average / max / min methods
+		Print table header
+		Print respective parts of an object using printTable
+		Print max / min / avg of given information
+}

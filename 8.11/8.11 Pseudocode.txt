@@ -1,0 +1,32 @@
+CO2FromWasteV1 Pseudocode
+
+Define Class	
+	Declare private integers, booleans, and doubles
+	Create constructor, assigning private variables to given information
+	<Method for calculating gross waste emission>
+	<Method for calculating waste reduction>
+		<If paper use is true, multiply 184 by amnt of people>
+		<If plastic use is true, multiply 25.6 by amnt of people>
+		<If glass use is true, multiply 46.6 by amnt of people>
+		<If cans use is true, multiply 165.8 by amnt of people>
+	<Method for calculating net waste reduction>
+		<Net emissions equals total emissions - reduction>
+	<Getters and setters for all private instance variables>
+close
+
+
+
+
+CO2FromWasteTesterV1 Pseudocode
+
+Import ArrayList
+Define Class
+	Main Method
+		Create ArrayList named households
+		Add all household object examples to arraylist
+		Calculate gross waste emission, waste reduction, and net waste reduction for all objects
+		Print chart
+		Create dataRecord object
+		Assign each object within arrayList to datarecord
+		Print varying information from dataRecord object
+close
